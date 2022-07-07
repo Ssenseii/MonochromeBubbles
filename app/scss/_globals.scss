@@ -20,9 +20,19 @@ body{
 }
 
 .circle{
+    position: fixed;
     width: 10rem;
     height: 10rem;
     background-color: $second;
     border: 4px solid $secondborder;
     border-radius: 50%;
+    
+    display: flex;
+}
+.forboded{
+
+    position: relative;
+    bottom: 1.7rem; 
+    width: 15%; 
+    overflow: hidden;
 }
